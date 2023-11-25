@@ -15,6 +15,8 @@
 - Create Redux store with UserSlice
 - implement sign out
 - Update profile 
+- BugFix : Sign up user display and profile picture update
+- BugFix : if the user is not loged in redirect /browse page to home page and vice-versa
 
 
 # Features
