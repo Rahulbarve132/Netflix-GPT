@@ -17,7 +17,11 @@
 - Update profile 
 - BugFix : Sign up user display and profile picture update
 - BugFix : if the user is not loged in redirect /browse page to home page and vice-versa
-
+- unsuscribe the onAuthStateChanged callback
+- add hardcoded value to the constant file
+- register Tbdb App and get access token
+- Create a Slice for moives and add now playing movie on their
+- create a custon hook for get Nowplaying movie data and send its data to slice
 
 # Features
 
