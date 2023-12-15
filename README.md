@@ -22,6 +22,12 @@
 - register Tbdb App and get access token
 - Create a Slice for moives and add now playing movie on their
 - create a custon hook for get Nowplaying movie data and send its data to slice
+- planning for main container & secondery container
+- Fetch video from trailer video 
+- Update the store with trailer video data 
+- Embedded the youtube video and make it autoPlay and mute
+- Tailwind classes to make MainContainer look awasome
+- 
 
 # Features
 
