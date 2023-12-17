@@ -45,14 +45,14 @@ const Header = () => {
     <div className='absolute px-8 bg-gradient-to-b from-black w-full z-10 flex justify-between '>
       <div>
       <img 
-      className='w-44'
+      className='sm:w-44 w-16'
       src= {LOGO} 
       alt="logo" />
       </div>
 
       { user &&(<div className='flex items-center	m-2 gap-3 '>
-        <img className='h-6 w-6' src={USER_AVATAR} alt="" />
-        <button onClick={handleSignOut}  className='font-bold text-white'>Sign out</button>
+        <img className='sm:h-6 sm:w-6 h-4 w-4' src={USER_AVATAR} alt="" />
+        <button onClick={handleSignOut}  className='font-bold text-white text-sm sm:text-lg'>Sign out</button>
       </div>
       )}
     </div>
