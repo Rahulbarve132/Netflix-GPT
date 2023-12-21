@@ -1,14 +1,23 @@
 import React from 'react'
 import MovieCard from './MovieCard'
+import "../index.css"
 
 const MovieList = ({title ,movies}) => {
-  console.log(movies)
+  console.log(movies);
+
+ 
+  
   return (
-    <div>
-      <div>
-        <h1>{title}</h1>
+    <div className='p-6'>
+        <h1 className='text-3xl pb-4 text-white'>{title}</h1>
+      <div className='flex overflow-x-scroll HideScrollBar ' >
+
+        <div className=' flex'>
+          {movies?.map(movie =>  <MovieCard key={movie.id} posterPath={movie.poster_path}/>
+          )}
+         
+        </div>
       </div>
-      <MovieCard/>
     
       
     </div>
