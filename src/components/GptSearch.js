@@ -5,18 +5,21 @@ import { BG_URL } from '../utils/constant'
 
 const GptSearch = () => {
   return (
-    <div>
-      <div className="absolute bg-black -z-10">
+    <>
+    <div className="fixed bg-black -z-10">
        
        <img
-         className="sm:block hidden BackGround-picture"
+         className=" BackGround-picture h-screen object-cover w-screen"
          src={BG_URL}
          alt="backgroud"
        />
        </div>
+    <div className=''>
+      
       <GptSearchBar/>
       <GptMoviesSuggestions/>
     </div>
+    </>
   )
 }
 

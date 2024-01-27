@@ -2,14 +2,10 @@ import React from 'react'
 import MovieCard from './MovieCard'
 import "../index.css"
 
-const MovieList = ({title ,movies}) => {
-  
-
- 
-  
+const MovieList = ({title ,movies}) => { 
   return (
     <div className='p-6'>
-        <h1 className='text-3xl pb-4 text-white'>{title}</h1>
+        <h1 className='text-2xl md:text-3xl pb-4 text-white'>{title}</h1>
       <div className='flex overflow-x-scroll HideScrollBar ' >
 
         <div className=' flex'>
