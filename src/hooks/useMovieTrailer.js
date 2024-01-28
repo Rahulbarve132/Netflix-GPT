@@ -27,6 +27,7 @@ import { useEffect } from "react";
         useEffect(() => {
           !trailerVideo &&
           getMovieVideo();
+          
         }, []);
     }
 
